@@ -1,0 +1,22 @@
+<suite name="ABCDSelenium">
+	<test name="test">
+
+		<classes>
+	
+			<class name="Alert.AlertType">
+				<methods>
+				<include name="Alert"/>
+				</methods>
+				</class>
+					
+					
+					<class name="TestNG.StudentForm">
+				<methods>
+				<include name="student"/>
+				</methods>
+				</class>
+				
+		</classes>
+	
+	</test>
+</suite>
