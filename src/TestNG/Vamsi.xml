@@ -12,7 +12,7 @@
 					
 					<class name="TestNG.StudentForm">
 				<methods>
-				<include name="student"/>
+				<include name="students"/>
 				</methods>
 				</class>
 				

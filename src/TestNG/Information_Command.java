@@ -30,6 +30,7 @@ public class Information_Command {
 	 String str2 = driver.findElement(By.xpath("/html/body/div[1]/div[2]/div/img")).getAttribute("alt");
 	 System.out.println(str2);
 	 
+	
   }
   
   @Test(priority = 3)
@@ -41,6 +42,7 @@ public class Information_Command {
 	  String screenshot = "vamsi";
 	 File scrFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 	 FileHandler.copy(scrFile, new File("C:\\Users\\sruthi\\Downloads\\screenshots\\"+screenshot+".png"));
+	
 	
   }
   
