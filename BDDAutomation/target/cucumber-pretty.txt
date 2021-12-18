@@ -1,0 +1,30 @@
+Feature: Registered and non registered user will come on application and perform activities
+
+  Scenario: Registered user comes to application, login and logout # LoginLogout.feature:3
+    Given User is on login page                                    # StepDefinition.user_is_on_login_page()
+    When User enters username                                      # StepDefinition.user_enters_username()
+    And User enters password                                       # StepDefinition.user_enters_password()
+    And User clicks on signin button                               # StepDefinition.user_clicks_on_signin_button()
+    Then User should be loggedin                                   # StepDefinition.user_should_be_loggedin()
+    When User click on Logout button                               # StepDefinition.user_click_on_Logout_button()
+    Then User should be logged out                                 # StepDefinition.user_should_be_logged_out()
+
+  Scenario: Non Registered user comes to application, Register and Login # LoginLogout.feature:12
+    Given User is on Registration page                                   # StepDefinition.user_is_on_Registration_page()
+    When User enter username                                             # StepDefinition.user_enter_username()
+    And User enters email address                                        # StepDefinition.user_enters_email_address()
+    And User enters password                                             # StepDefinition.user_enters_password()
+    And User enters password                                             # StepDefinition.user_enters_password()
+    And User enters confirm password                                     # StepDefinition.user_enters_confirm_password()
+    And User enters date of birth                                        # StepDefinition.user_enters_date_of_birth()
+    And User enters phone number                                         # StepDefinition.user_enters_phone_number()
+    And User enters address                                              # StepDefinition.user_enters_address()
+    And User click on home address type                                  # StepDefinition.user_click_on_home_address_type()
+    And User select gender                                               # StepDefinition.user_select_gender()
+    And User select country                                              # StepDefinition.user_select_country()
+    And User select state                                                # StepDefinition.user_select_state()
+    And User select city                                                 # StepDefinition.user_select_city()
+    And User enters zip code                                             # StepDefinition.user_enters_zip_code()
+    And User click on agree checkbox                                     # StepDefinition.user_click_on_agree_checkbox()
+    And User click on sign up button                                     # StepDefinition.user_click_on_sign_up_button()
+    Then User account should be created                                  # StepDefinition.user_account_should_be_created()

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="0.439901">
+    <testcase classname="Registered and non registered user will come on application and perform activities" name="Registered user comes to application, login and logout" time="0.438861">
+        <system-out>
+            <![CDATA[Given User is on login page.................................................passed
+When User enters username...................................................passed
+And User enters password....................................................passed
+And User clicks on signin button............................................passed
+Then User should be loggedin................................................passed
+When User click on Logout button............................................passed
+Then User should be logged out..............................................passed
+]]>
+        </system-out>
+    </testcase>
+    <testcase classname="Registered and non registered user will come on application and perform activities" name="Non Registered user comes to application, Register and Login" time="0.00104">
+        <system-out>
+            <![CDATA[Given User is on Registration page..........................................passed
+When User enter username....................................................passed
+And User enters email address...............................................passed
+And User enters password....................................................passed
+And User enters password....................................................passed
+And User enters confirm password............................................passed
+And User enters date of birth...............................................passed
+And User enters phone number................................................passed
+And User enters address.....................................................passed
+And User click on home address type.........................................passed
+And User select gender......................................................passed
+And User select country.....................................................passed
+And User select state.......................................................passed
+And User select city........................................................passed
+And User enters zip code....................................................passed
+And User click on agree checkbox............................................passed
+And User click on sign up button............................................passed
+Then User account should be created.........................................passed
+]]>
+        </system-out>
+    </testcase>
+</testsuite>

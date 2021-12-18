@@ -1,0 +1,332 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Registered user comes to application, login and logout",
+        "description": "",
+        "id": "registered-and-non-registered-user-will-come-on-application-and-perform-activities;registered-user-comes-to-application,-login-and-logout",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 438327100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on login page",
+            "match": {
+              "location": "StepDefinition.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 51794,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters username",
+            "match": {
+              "location": "StepDefinition.user_enters_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 50860,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enters password",
+            "match": {
+              "location": "StepDefinition.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 271569,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User clicks on signin button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_signin_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52727,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User should be loggedin",
+            "match": {
+              "location": "StepDefinition.user_should_be_loggedin()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 51794,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User click on Logout button",
+            "match": {
+              "location": "StepDefinition.user_click_on_Logout_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 55061,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be logged out",
+            "match": {
+              "location": "StepDefinition.user_should_be_logged_out()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Non Registered user comes to application, Register and Login",
+        "description": "",
+        "id": "registered-and-non-registered-user-will-come-on-application-and-perform-activities;non-registered-user-comes-to-application,-register-and-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 66725,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is on Registration page",
+            "match": {
+              "location": "StepDefinition.user_is_on_Registration_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 55060,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enter username",
+            "match": {
+              "location": "StepDefinition.user_enter_username()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 49928,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters email address",
+            "match": {
+              "location": "StepDefinition.user_enters_email_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30329,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters password",
+            "match": {
+              "location": "StepDefinition.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30796,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters password",
+            "match": {
+              "location": "StepDefinition.user_enters_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46661,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters confirm password",
+            "match": {
+              "location": "StepDefinition.user_enters_confirm_password()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 101255,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User enters date of birth",
+            "match": {
+              "location": "StepDefinition.user_enters_date_of_birth()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51794,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User enters phone number",
+            "match": {
+              "location": "StepDefinition.user_enters_phone_number()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 74191,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters address",
+            "match": {
+              "location": "StepDefinition.user_enters_address()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 52260,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User click on home address type",
+            "match": {
+              "location": "StepDefinition.user_click_on_home_address_type()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 46661,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User select gender",
+            "match": {
+              "location": "StepDefinition.user_select_gender()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50394,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User select country",
+            "match": {
+              "location": "StepDefinition.user_select_country()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51794,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User select state",
+            "match": {
+              "location": "StepDefinition.user_select_state()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 47128,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "User select city",
+            "match": {
+              "location": "StepDefinition.user_select_city()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 50394,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User enters zip code",
+            "match": {
+              "location": "StepDefinition.user_enters_zip_code()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 55060,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User click on agree checkbox",
+            "match": {
+              "location": "StepDefinition.user_click_on_agree_checkbox()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51794,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "User click on sign up button",
+            "match": {
+              "location": "StepDefinition.user_click_on_sign_up_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127852,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "User account should be created",
+            "match": {
+              "location": "StepDefinition.user_account_should_be_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registered and non registered user will come on application and perform activities",
+    "description": "",
+    "id": "registered-and-non-registered-user-will-come-on-application-and-perform-activities",
+    "keyword": "Feature",
+    "uri": "LoginLogout.feature"
+  }
+]
